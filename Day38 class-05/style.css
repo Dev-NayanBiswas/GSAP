@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", Courier, monospace;
+}
+body {
+    position: relative;
+  height: 100%;
+  width: 100%;
+  min-block-size: 100dvh;
+  background-image: url(./images/Lake-art.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  & .mobile__menuBar{
+    background: rgba(255, 0, 0, 0.183);
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items:center;
+    padding: 2rem;
+    left: -20%;
+    height: 100%;
+    width: 20%;
+    & ion-icon{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        left: 0;
+        top: 0;
+        background: #523e3e;
+        padding: 0.2rem;
+        border: 50%;
+        color: rgb(242, 238, 238);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        &:hover{
+            color: rgb(235, 18, 18);
+        }
+    }
+    & #listContainer{
+        list-style: none;
+        overflow: hidden;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 2rem;
+        font-size: 1.5rem;
+        color: aliceblue;
+        width: 100%;
+        text-align: right;
+    }
+    }
+}
+h4{
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    &:hover{
+        background: linear-gradient(90deg, transparent, rgba(255, 0, 0, 0.315))
+    }
+}
+
+nav{
+    height: 20dvh;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    & .logo__container{
+        flex: 1 0 calc(100% / 2);
+        /* background: rgb(112, 37, 37); */
+        & ion-icon{
+            position: absolute;
+            width: 2rem;
+            height: 2rem;
+            left: 0;
+            top: 0;
+            background: #e46f6f00;
+            padding: 0.2rem;
+            border: 50%;
+            color: rgb(242, 238, 238);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+            &:hover{
+                color: rgb(235, 18, 18);
+            }
+        }
+    }
+    & .menu__container{
+        flex: 1 0 calc(100% / 2);
+        /* background: rgb(167, 63, 63); */
+    }
+}
