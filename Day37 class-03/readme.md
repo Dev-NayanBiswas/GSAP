@@ -19,3 +19,6 @@
         * _so set the path value in ***gsap.to("path",{attr:{d:initialValue}})*** duration and ***ease:"elastic.out(1.2,0.2)"*** added an elastic look when mouse leave the body._
   ###### that's all
   ***
+
+
+  [_Learn GSAP with Sheryians_](https://www.youtube.com/watch?v=9C03V1dXxOU&list=PLbtI3_MArDOnIIJxB6xFtpnhM0wTwz0x6)

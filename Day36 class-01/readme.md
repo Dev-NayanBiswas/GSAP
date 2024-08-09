@@ -19,3 +19,5 @@
 7. ***repeat:-1***_it means animation will repeat infinitely and for 2 it will execute 3times, first execution will be by default and rest executions will following the value of repeat value._
 8. ***yoyoy:true/false*** _it plays animation in loop._
    ****
+   [_Learn GSAP with Sheryians_](https://www.youtube.com/watch?v=9C03V1dXxOU&list=PLbtI3_MArDOnIIJxB6xFtpnhM0wTwz0x6)
+

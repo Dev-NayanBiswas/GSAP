@@ -14,5 +14,6 @@
             _**pin: true/false** (pin element based on trigger)_
 
 ****
+[_Learn GSAP with Sheryians_](https://www.youtube.com/watch?v=9C03V1dXxOU&list=PLbtI3_MArDOnIIJxB6xFtpnhM0wTwz0x6)
 
 
