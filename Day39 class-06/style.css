@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", Courier, monospace;
+}
+body {
+  height: 100%;
+  width: 90dvw;
+  min-block-size: 100dvh;
+  background: #000000b7;
+  text-align: center;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+h1{
+    color: rgb(111, 111, 10);
+    font-size: 5rem;
+    white-space: wrap;
+    & span{
+        display: inline-block;
+    }
+}
+div{
+    height: 50dvh;
+}
