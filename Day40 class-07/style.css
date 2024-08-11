@@ -1,0 +1,51 @@
+@font-face {
+    font-family:"myFont";
+    src: url(./font/MonoLisa-Regular.woff2);
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:myFont;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+header,main,footer{
+    height:100vh;
+    width:100%;
+    text-align: center;
+}
+#marquee__container{
+    background-color: limegreen;
+    display: flex;
+    padding: 2vw 0;
+    /* overflow: hidden; */
+    text-align: center;
+    position: relative;
+}
+
+.marquee{
+    transform:translateX(-100%);
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding:0.5vw;
+    outline: 2px solid red;
+}
+.marquee img{
+    height: 2vw;
+}
+.marquee h1{
+    color: #000;
+    font-size: 2vw;
+    font-weight: 600;
+    font-style: italic;
+    white-space: nowrap;
+}
